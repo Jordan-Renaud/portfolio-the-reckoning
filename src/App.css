@@ -1,0 +1,38 @@
+.color {
+  color: #6667ab;
+}
+
+@font-face {
+  font-family: "Hnadwriting-Regular";
+  src: local("Hnadwriting-Regular"),
+    url(./fonts/Hnadwriting-Regular.ttf) format("ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  background-color: #f1f0ec;
+  background-image: url(./images/background.png);
+  background-size: cover;
+  color: #28282d;
+  height: 100vh;
+  width: 100vw;
+}
+
+.landing-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+  align-content: center;
+  justify-items: center;
+}
+
+.title {
+  text-align: center;
+  font-family: "Hnadwriting-Regular";
+  font-size: 5rem;
+}
