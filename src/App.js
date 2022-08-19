@@ -1,5 +1,6 @@
 import Person from "./images/Person";
 import Project from "./components/Project";
+import BouncingText from "./components/BouncingText";
 import { projects } from "./data";
 import "./App.css";
 
@@ -9,7 +10,9 @@ function App() {
       <div className="landing-container">
         <div className="title">
           <h1>Jordan Renaud</h1>
-          <h2>Developer</h2>
+          <h2>
+            <BouncingText text="Developer" />
+          </h2>
         </div>
         <Person />
       </div>
@@ -20,6 +23,10 @@ function App() {
             <Project projectData={projectData} />
           </article>
         ))}
+      </section>
+      <section>
+        <h2 className="title">Easter Eggs</h2>
+        <p>Hover over Developer</p>
       </section>
     </div>
   );

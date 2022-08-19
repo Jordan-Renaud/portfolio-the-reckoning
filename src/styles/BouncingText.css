@@ -1,0 +1,16 @@
+.animate {
+  position: relative;
+  animation: move-text 0.75s ease-out;
+}
+
+@keyframes move-text {
+  0% {
+    bottom: 0em;
+  }
+  50% {
+    bottom: 0.2em;
+  }
+  100% {
+    bottom: 0;
+  }
+}
