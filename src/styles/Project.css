@@ -1,0 +1,26 @@
+.Project {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width: 70vw;
+  margin: 0 auto;
+}
+
+.image-container {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.image-container img {
+  grid-area: 1 / 1;
+  width: 70%;
+}
+.image-container .small-img {
+  width: 60%;
+}
+
+.text-container {
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+  align-items: center;
+}
