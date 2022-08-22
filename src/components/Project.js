@@ -6,7 +6,13 @@ export default function Project({ projectData }) {
     <div className="Project">
       <div className="image-container">
         <img src={blob} alt="" />
-        <img className="small-img" src={projectData.image} />
+        <a href={projectData.url}>
+          <img
+            className="link-image"
+            src={projectData.image}
+            alt={projectData.imageAlt}
+          />
+        </a>
       </div>
       <div className="text-container">
         <h3>{projectData.title}</h3>

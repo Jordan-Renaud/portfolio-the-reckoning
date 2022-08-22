@@ -1,6 +1,6 @@
 .Project {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 3fr;
   width: 70vw;
   margin: 0 auto;
 }
@@ -11,16 +11,27 @@
   align-items: center;
 }
 
-.image-container img {
+.image-container * {
   grid-area: 1 / 1;
-  width: 70%;
+  width: 90%;
+  object-fit: contain;
 }
-.image-container .small-img {
-  width: 60%;
+
+.image-container .link-image {
+  place-self: center;
+  height: 18rem;
+  transform: rotate3d(1, 1, 1, 25deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-container .link-image:hover {
+  transform: rotate3d(0, 0, 0, 0deg);
 }
 
 .text-container {
-  display: grid;
-  grid-template-rows: 1fr 3fr;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  gap: 10px;
 }
