@@ -1,0 +1,11 @@
+.HiddenConfettiButton {
+  min-width: 50px;
+  min-height: 50px;
+  background-color: #f1f0ec;
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+}
+.HiddenConfettiButton:hover {
+  cursor: pointer;
+}
