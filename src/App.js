@@ -26,15 +26,15 @@ function App() {
         </div>
         <Person />
       </div>
-      <section>
+      <section className="whole-page">
         <h2 className="title">Projects</h2>
-        {projects.map((projectData) => (
+        {projects.map((projectData, index) => (
           <article key={projectData.title}>
-            <Project projectData={projectData} />
+            <Project projectData={projectData} index={index} />
           </article>
         ))}
       </section>
-      <section>
+      <section className="whole-page">
         <h2 className="title">Easter Eggs</h2>
         {achievements.map((achievementData) => (
           <article key={achievementData.achievementName}>

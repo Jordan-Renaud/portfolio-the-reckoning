@@ -27,7 +27,7 @@ export default function HiddenConfettiButton({ color }) {
       {isConfettiShown && (
         <Confetti
           width={width - 40}
-          height={height * 2}
+          height={height * 3}
           recycle={recycle}
           colors={[
             "#f2f2f2",

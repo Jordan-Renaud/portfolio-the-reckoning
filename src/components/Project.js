@@ -1,9 +1,11 @@
 import blob from "../images/blob.png";
 import "../styles/Project.css";
 
-export default function Project({ projectData }) {
+export default function Project({ projectData, index }) {
+  const side = index % 2 === 0 ? "left" : "right";
+
   return (
-    <div className="Project">
+    <div className={`Project ${side}`}>
       <div className="image-container">
         <img src={blob} alt="" />
         <a href={projectData.url}>

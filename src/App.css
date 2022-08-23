@@ -36,3 +36,7 @@
   font-family: "Hnadwriting-Regular";
   font-size: 5rem;
 }
+
+.whole-page {
+  height: 100vh;
+}
