@@ -2,10 +2,18 @@ import Person from "./images/Person";
 import Project from "./components/Project";
 import BouncingText from "./components/BouncingText";
 import HiddenConfettiButton from "./components/HiddenConfettiButton";
-import { projects } from "./data";
+import EasterEgg from "./components/EasterEgg";
+import { projects, achievements } from "./data";
 import "./App.css";
+import { useEffect, useState } from "react";
 
 function App() {
+  const [userAchievments, setUserAchievments] = useState({});
+
+  function updateUserAchievements(achievement) {
+    //TODO: setup this function to update a specific function with completed
+  }
+
   return (
     <div className="App">
       <HiddenConfettiButton color="green" />
@@ -28,8 +36,11 @@ function App() {
       </section>
       <section>
         <h2 className="title">Easter Eggs</h2>
-        <p>Hover over Developer</p>
-        <p>Click on the top left of the page</p>
+        {achievements.map((achievementData) => (
+          <article key={achievementData.achievementName}>
+            <EasterEgg achievementData={achievementData} />
+          </article>
+        ))}
       </section>
     </div>
   );

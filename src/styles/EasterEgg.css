@@ -1,0 +1,13 @@
+.EasterEggButton {
+  background-image: url("../images/blob.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 12rem;
+  height: 10rem;
+  background-color: #f1f0ec;
+  border: none;
+}
+
+.EasterEggButton:hover {
+  cursor: pointer;
+}
