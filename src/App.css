@@ -28,6 +28,7 @@
   justify-items: center;
   background-image: url(./images/background.png);
   background-size: cover;
+  background-position: right;
 }
 
 .title {
