@@ -3,7 +3,8 @@ import Project from "./components/Project";
 import BouncingText from "./components/BouncingText";
 import HiddenConfettiButton from "./components/HiddenConfettiButton";
 import EasterEgg from "./components/EasterEgg";
-import { projects, achievements } from "./data";
+import InternetContact from "./components/InternetContact";
+import { projects, achievements, internetPresences } from "./data";
 import "./App.css";
 import { useEffect, useState } from "react";
 
@@ -24,7 +25,9 @@ function App() {
             <BouncingText text="Developer" />
           </h2>
         </div>
-        <Person />
+        <div className="person-container">
+          <Person />
+        </div>
       </div>
       <section className="whole-page">
         <h2 className="title">Projects</h2>
@@ -36,11 +39,23 @@ function App() {
       </section>
       <section className="whole-page">
         <h2 className="title">Easter Eggs</h2>
-        {achievements.map((achievementData) => (
-          <article key={achievementData.achievementName}>
-            <EasterEgg achievementData={achievementData} />
-          </article>
-        ))}
+        <div className="grid-container">
+          {achievements.map((achievementData) => (
+            <article key={achievementData.achievementName}>
+              <EasterEgg achievementData={achievementData} />
+            </article>
+          ))}
+        </div>
+      </section>
+      <section className="whole-page">
+        <h2 className="title">What I'm up to</h2>
+        <div className="grid-container">
+          {internetPresences.map((internetPresence) => (
+            <div key={internetPresence.name}>
+              <InternetContact linkData={internetPresence} />
+            </div>
+          ))}
+        </div>
       </section>
     </div>
   );

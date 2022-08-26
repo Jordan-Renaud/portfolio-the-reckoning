@@ -1,0 +1,13 @@
+.logo {
+  width: 5rem;
+}
+
+.InternetContact {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 12px;
+  background-color: #a29bfe;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}

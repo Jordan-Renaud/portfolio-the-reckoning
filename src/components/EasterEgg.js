@@ -14,7 +14,7 @@ export default function EasterEgg({ achievementData }) {
   }
   return (
     <button className="EasterEggButton" onClick={checkClueNumber}>
-      <span>{currentClue}</span>
+      <span className="clue">{currentClue}</span>
     </button>
   );
 }

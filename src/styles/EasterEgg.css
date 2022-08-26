@@ -6,8 +6,17 @@
   height: 10rem;
   background-color: #f1f0ec;
   border: none;
+  transition: 0.2s transform ease-in-out;
 }
 
 .EasterEggButton:hover {
   cursor: pointer;
+  transform: scale(1.1);
+}
+
+.clue {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 16px;
 }

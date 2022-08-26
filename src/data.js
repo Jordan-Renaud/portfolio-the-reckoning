@@ -1,5 +1,10 @@
 import whaleSpottingPhone from "./images/whale-spotting-phone.png";
 import dndPhone from "./images/dnd-phone.png";
+import codewars from "./images/logos/codewars.svg";
+import facebook from "./images/logos/facebook.svg";
+import github from "./images/logos/github.svg";
+import instagram from "./images/logos/instagram.svg";
+import linkedin from "./images/logos/linkedin.svg";
 
 export const projects = [
   {
@@ -16,6 +21,13 @@ export const projects = [
     image: whaleSpottingPhone,
     description:
       "Create a website to help encourage and track whale spotting as part of a team.",
+  },
+  {
+    title: "Mars Mission (TechSwitch bootcamp)",
+    url: "https://whale-spotting.herokuapp.com/",
+    image: whaleSpottingPhone,
+    description:
+      "Work as part of a group to design and create a mobile first website with the goal of engaging children in the 11-16 age range.",
   },
 ];
 
@@ -37,5 +49,40 @@ export const achievements = [
     achievementName: "Make it bounce",
     emoji: "🎉",
     points: 15,
+  },
+];
+
+//Internet presence default values:
+// { link: "", image: "", alt: "", name: "" }
+export const internetPresences = [
+  {
+    link: "https://www.codewars.com/users/JordanRenaud",
+    image: codewars,
+    alt: "Codewars Logo",
+    name: "Codewars",
+  },
+  {
+    link: "https://www.facebook.com/jordan.renaud3/",
+    image: facebook,
+    alt: "Facebook Logo",
+    name: "Facebook",
+  },
+  {
+    link: "https://github.com/Jordan-Renaud",
+    image: github,
+    alt: "Github Logo",
+    name: "Github",
+  },
+  {
+    link: "https://www.instagram.com/jordan__renaud/",
+    image: instagram,
+    alt: "Instagram Logo",
+    name: "Instagram",
+  },
+  {
+    link: "www.linkedin.com/in/jordan-denise-renaud",
+    image: linkedin,
+    alt: "Linkedin Logo",
+    name: "Linkedin",
   },
 ];
