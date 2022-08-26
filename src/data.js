@@ -1,5 +1,6 @@
 import whaleSpottingPhone from "./images/whale-spotting-phone.png";
 import dndPhone from "./images/dnd-phone.png";
+import marsMissionPhone from "./images/mars-mission-phone.png";
 import codewars from "./images/logos/codewars.svg";
 import facebook from "./images/logos/facebook.svg";
 import github from "./images/logos/github.svg";
@@ -24,8 +25,8 @@ export const projects = [
   },
   {
     title: "Mars Mission (TechSwitch bootcamp)",
-    url: "https://whale-spotting.herokuapp.com/",
-    image: whaleSpottingPhone,
+    url: "https://github.com/Jordan-Renaud/mars-mission-techswitch",
+    image: marsMissionPhone,
     description:
       "Work as part of a group to design and create a mobile first website with the goal of engaging children in the 11-16 age range.",
   },
