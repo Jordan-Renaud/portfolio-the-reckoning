@@ -1,6 +1,7 @@
 import whaleSpottingPhone from "./images/whale-spotting-phone.png";
 import dndPhone from "./images/dnd-phone.png";
 import marsMissionPhone from "./images/mars-mission-phone.png";
+import worldOfPicasso from "./images/world-of-picasso-phone.png";
 import codewars from "./images/logos/codewars.svg";
 import facebook from "./images/logos/facebook.svg";
 import github from "./images/logos/github.svg";
@@ -29,6 +30,24 @@ export const projects = [
     image: marsMissionPhone,
     description:
       "Work as part of a group to design and create a mobile first website with the goal of engaging children in the 11-16 age range.",
+  },
+  {
+    title: "World of Picasso",
+    url: "https://world-of-picasso.netlify.app/",
+    image: worldOfPicasso,
+    description: (
+      <>
+        Recreate a given grid based{" "}
+        <a
+          href="https://www.behance.net/gallery/120867209/Picasso-art-website-redesign?tracking_source=curated_galleries_ui-ux"
+          target="_blank"
+          rel="noreferrer"
+        >
+          design
+        </a>
+        . Focusing on using CSS grid and making it fully responsive.
+      </>
+    ),
   },
 ];
 

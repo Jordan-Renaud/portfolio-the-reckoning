@@ -8,7 +8,7 @@ export default function Project({ projectData, index }) {
     <div className={`Project ${side}`}>
       <div className="image-container">
         <img src={blob} alt="" />
-        <a href={projectData.url}>
+        <a href={projectData.url} target="_blank" rel="noreferrer">
           <img
             className="link-image"
             src={projectData.image}
