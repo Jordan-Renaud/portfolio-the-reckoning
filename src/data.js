@@ -87,3 +87,24 @@ export const internetPresences = [
     name: "Linkedin",
   },
 ];
+
+export const colors = [
+  {
+    primary: "#a29bfe",
+    secondary: "#6667ab",
+    text: "#28282d",
+    background: "#f2f2f2",
+  },
+  {
+    primary: "#EAE3D2",
+    secondary: "#607EAA",
+    text: "#1C3879",
+    background: "#F9F5EB",
+  },
+  {
+    primary: "#E6D2AA",
+    secondary: "#D36B00",
+    text: "#42032C",
+    background: "#F1EFDC",
+  },
+];

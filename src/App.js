@@ -4,7 +4,8 @@ import BouncingText from "./components/BouncingText";
 import HiddenConfettiButton from "./components/HiddenConfettiButton";
 import EasterEgg from "./components/EasterEgg";
 import InternetContact from "./components/InternetContact";
-import { projects, achievements, internetPresences } from "./data";
+import ColorPalettes from "./components/ColorSchemes/ColorPalettes";
+import { projects, achievements, internetPresences, colors } from "./data";
 import "./App.css";
 import { useEffect, useState } from "react";
 
@@ -17,6 +18,7 @@ function App() {
 
   return (
     <div className="App">
+      <ColorPalettes colors={colors} />
       <HiddenConfettiButton color="green" />
       <div className="landing-container">
         <div className="title">
