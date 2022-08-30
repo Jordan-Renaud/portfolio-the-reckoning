@@ -1,4 +1,4 @@
-import "../../styles/ColorSchemes.css";
+import "./ColorSchemes.css";
 
 export default function Color({ hex }) {
   const style = {

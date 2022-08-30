@@ -1,0 +1,10 @@
+.contacts-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 50vw;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  margin: 3rem auto;
+}

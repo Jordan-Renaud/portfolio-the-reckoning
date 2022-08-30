@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../styles/EasterEgg.css";
+import "./EasterEgg.css";
 
 export default function EasterEgg({ achievementData }) {
   const [currentClue, setCurrentClue] = useState(achievementData.clue1);

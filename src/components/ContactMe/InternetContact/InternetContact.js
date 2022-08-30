@@ -1,4 +1,4 @@
-import "../styles/InternetContact.css";
+import "./InternetContact.css";
 
 export default function InternetContact({ linkData }) {
   const { link, image, alt, name } = linkData;

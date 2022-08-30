@@ -1,5 +1,5 @@
-import blob from "../images/blob.png";
-import "../styles/Project.css";
+import blob from "../../../images/blob.png";
+import "./Project.css";
 
 export default function Project({ projectData, index }) {
   const side = index % 2 === 0 ? "left" : "right";

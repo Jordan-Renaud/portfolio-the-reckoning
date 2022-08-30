@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import "../styles/BouncingText.css";
+import "./BouncingText.css";
 
 export default function BouncingText({ text }) {
   const [isAnimating, setIsAnimating] = useState(false);

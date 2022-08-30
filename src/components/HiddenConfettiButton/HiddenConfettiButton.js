@@ -1,7 +1,7 @@
 import { useWindowSize } from "react-use";
 import Confetti from "react-confetti";
 import { useEffect, useState } from "react";
-import "../styles/HiddenConfettiButton.css";
+import "./HiddenConfettiButton.css";
 
 export default function HiddenConfettiButton({ color }) {
   const { width, height } = useWindowSize();
